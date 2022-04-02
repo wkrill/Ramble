@@ -1,15 +1,23 @@
-# Linting/Tooling
-pylint
-flake8
-mypy
-isort
-black
-pre-commit
-autopep8
+
+
+# Runtime requirements
+--requirement requirements.txt
 
 # Testing
 pytest
+codecov
+pytest-cov
+pre-commit
+tox
+
+# Linting
+flake8
+pylint
+mypy
+autopep8
+isort
 
 # Documentation
 mkdocs
 mkdocstrings
+Pygments
