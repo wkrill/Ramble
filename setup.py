@@ -4,7 +4,7 @@ from setuptools import setup
 
 
 CLASSIFIERS = '''\
-Programming Language :: Python :: 3.7 :: 3.8
+Programming Language :: Python :: 3.9 :: 3.10
 Topic :: Software Development
 Operating System :: MacOS
 '''
@@ -23,7 +23,7 @@ PYTHON_MIN_VERSION = '3.9'
 PYTHON_MAX_VERSION = '3.9'
 PYTHON_REQUIRES = f'>={PYTHON_MIN_VERSION}, <={PYTHON_MAX_VERSION}'
 
-INSTALL_REQUIRES = ['hej']
+INSTALL_REQUIRES = []
 
 PACKAGES = [
     'ramble',
