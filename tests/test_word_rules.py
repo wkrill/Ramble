@@ -1,9 +1,11 @@
 '''Test word_rules.
 '''
-from typing import Type
 import unittest
+from typing import Type
 
-from ramble.word_rules import matching_suffix, alphabet_rule, WordRule
+from ramble.word_rules import WordRule
+from ramble.word_rules import alphabet_rule
+from ramble.word_rules import matching_suffix
 
 
 class WordSuccessorTests(unittest.TestCase):

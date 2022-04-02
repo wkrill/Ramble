@@ -1,11 +1,15 @@
 '''Test word_successor.
 '''
-from typing import Iterable, Type
 import unittest
+from typing import Iterable
+from typing import Type
 
-from ramble import choose_word, find_matching_words
-from ramble.word_successor import WordSuccessor, SuccessionMethod
-from ramble.word_rules import alphabet_rule, matching_suffix
+from ramble import choose_word
+from ramble import find_matching_words
+from ramble.word_rules import alphabet_rule
+from ramble.word_rules import matching_suffix
+from ramble.word_successor import SuccessionMethod
+from ramble.word_successor import WordSuccessor
 
 
 class WordSuccessorTests(unittest.TestCase):

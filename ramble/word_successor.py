@@ -1,7 +1,8 @@
 
-from enum import Enum, auto
-from random import choice
 from collections.abc import Callable
+from enum import Enum
+from enum import auto
+from random import choice
 
 
 WordRule = Callable[[str, str], int]
