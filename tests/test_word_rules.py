@@ -15,7 +15,7 @@ class WordSuccessorTests(unittest.TestCase):
     def test_matching_suffix(self) -> None:
         ''' Tests the matching_suffix rule.
         '''
-        self.assertEquals(matching_suffix('abe', 'giraf'), 0)
+        self.assertNotEquals(matching_suffix('abe', 'giraf'), 0)
         self.assertEquals(matching_suffix('abe', 'skole'), 1)
         self.assertEquals(matching_suffix('telegraf', 'giraf'), 3)
         self.assertEquals(matching_suffix('telegraf', 'telegraf'), 0)
