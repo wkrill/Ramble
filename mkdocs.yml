@@ -1,0 +1,12 @@
+site_name: Ramble
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - API: api.md
+
+theme: readthedocs
+
+plugins:
+    - search
+    - mkdocstrings
